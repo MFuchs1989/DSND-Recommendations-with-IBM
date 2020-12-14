@@ -1,21 +1,33 @@
 
+# Recommendations with IBM
+
 
 ![IBM](images/IBM.png)
 
+This is another project from Udacity's Data Science Nanodegree programme.
+The task is to develop recommendation engines for the users of the IBM Watson Community which suggest new articles.
 
-# Recommendations with IBM
-This project was part of the Data Science Nanodegree with Udacity. The aim of the project is to develop a recommendation engine for suggesting new articles to the IBM Watson Community users.
 
 ## Introduction
-This project focuses on analyzing interactions between users and articles on the IBM Watson Studio platform. New article recommendations are made to users based on their interactions. Based on the data available, we can use various methods to make these recommendations. The methods used here are Rank Based, Collaborative Filtering, and Matrix Factorization.
+This project focuses on analysing interactions between users and articles on the IBM Watson Studio platform. Based on the users' interactions, new item recommendations are issued to them. 
+On the basis of the data provided, various methods can be used to make these recommendations. The methods used here are Rank Based, Collaborative Filtering and Matrix Factorisation.
+
 
 ## Rank Based Recommendations
-Since there are no ratings for articles the most popular articles are represented by their interactions with users. We only know if the user has or has not interacted with an article. We can simply count the amount of times an article was interacted with by users and proclaim it to be the most popular. This is especially useful for making recmomendations to new users for whom we have no existing data.
+Since there are no ratings for items, the most popular items are represented by their interactions with users.
+It is only known whether the user has interacted with an item or not.
+It can simply count how many times an article has been interacted with by users and proclaim it as the most popular.
+This recommendation system is particularly useful for making recommendations to new users for whom we have no data.
 
 ## User-User Collaborative Filtering
-Finding similar users based on article interactions may lead to better and more personalized recommendations. First step is to create a user-item matrix where each row is a unique user and each column is a unique article. Each interaction is represented by a 1 which results in the creation of a sparse matrix. Similarity refers to a pair of users reading same articles. This involves identifying similar users, extracting the articles which they read, and recommending unique articles which were seen by one user but not the other.
 
-Content-based recommendations were performed based on NLP methods; text similarity of the article titles was calculated as the dot product of text vectors for each title. CountVectorizer and Tidf
+Finding similar users based on item interactions usually leads to better and more personalised recommendations.
+The first step is to create a user-article matrix where each row is assigned a unique user and each column is assigned a unique article.
+Each interaction is represented by a 1 which results in the creation of a sparse matrix.
+ Similarity refers to a pair of users reading same articles.
+This identifies similar users. The articles they have read are extracted and unique articles are recommended that have been seen by one user but not the other.
+
+Content-based recommendations were performed based on Natural Language Processing (NLP) methods. The text similarity of the article titles was calculated using CountVectorizer and Tidf as the dot product of the text vectors for each title. 
 
 ## Matrix Factorization
 Here we can use the user-item matrix again to provide recommendations by performing Singular Value Decomposition (SVD). Using this method allows for predicting the user-article interaction. By breaking down the user-item matrix into a product of three matrices we can extract latent features (Sigma matrix) which indicate some relationship between the user and article. Predictions are made by varying the amount of latent features we choose to keep.
