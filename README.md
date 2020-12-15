@@ -31,7 +31,7 @@ Content-based recommendations were performed based on Natural Language Processin
 ## Matrix Factorization
 
 The user element matrix can be used again to make recommendations by performing a singular value decomposition (SVD).
-Using this method allows for predicting the user-article interaction.By breaking down the user-item matrix into a product of three matrices we can extract latent features (Sigma matrix) which indicate some relationship between the user and article. Predictions are made by varying the amount of latent features we choose to keep.
+Using this method allows for predicting the user-article interaction.By breaking down the user-item matrix into a product of three matrices we can extract latent features (sigma matrix) which indicate some relationship between the user and article. Predictions are made by varying the amount of latent features we choose to keep.
 
 
 ## Installations:
