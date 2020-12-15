@@ -69,6 +69,7 @@ Please run `pip install -r requirements.txt`
 My aim in this project was to develop concepts for recommending articles.
 
 <a name="acknowledgement"></a>
+
 ## Acknowledgements
 
 I thank [Udacity](https://www.udacity.com/) for providing this challenge and learning experience. I also acknowledge [IBM Watson Studio](https://jp-tok.dataplatform.cloud.ibm.com/login?preselect_region=true) for providing the dataset for this project.
