@@ -78,7 +78,7 @@ Please run `pip install -r requirements.txt`
 
 ## Authors
 
-+ [Michael Fuchs](https://github.com/MFuchs1989)
+* [Michael Fuchs](https://github.com/MFuchs1989)
 
 ## Project Motivation: 
 My aim in this project was to develop concepts for recommending articles.
