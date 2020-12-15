@@ -15,6 +15,7 @@ The task is to develop recommendation engines for the users of the IBM Watson Co
 	2. [User-User Collaborative Filtering](#user_user_based)
 	3. [Matrix Factorization](#svd)
 3. [Installations](#installations)
+4. [Authors](#authors)
 4. [Project Motivation](#motivation)
 5. [Acknowledgements](#acknowledgement)
 
@@ -71,6 +72,13 @@ Required libraries:
 Please run `pip install -r requirements.txt`
 
 <a name="motivation"></a>
+
+
+<a name="authors"></a> 
+
+## Authors
+
++ [Michael Fuchs](https://github.com/MFuchs1989)
 
 ## Project Motivation: 
 My aim in this project was to develop concepts for recommending articles.
