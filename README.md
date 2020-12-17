@@ -47,9 +47,9 @@ This recommendation system is particularly useful for making recommendations to 
 Finding similar users based on item interactions usually leads to better and more personalised recommendations.
 The first step is to create a user-article matrix where each row is assigned a unique user and each column is assigned a unique article.
 Each interaction is represented by a 1 which results in the creation of a sparse matrix.
- Similarity refers to a pair of users reading same articles.
+Similarity refers to a pair of users reading same articles.
 This identifies similar users. The articles they have read are extracted and unique articles are recommended that have been seen by one user but not the other.
-Content-based recommendations were performed based on Natural Language Processing (NLP) methods. The text similarity of the article titles was calculated using CountVectorizer as the dot product of the text vectors for each title. 
+Content-based recommendations were performed based on Natural Language Processing (NLP) methods.
 
 <a name="svd"></a>
 
