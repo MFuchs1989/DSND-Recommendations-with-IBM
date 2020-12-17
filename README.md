@@ -15,9 +15,10 @@ The task is to develop recommendation engines for the users of the IBM Watson Co
 	2. [User-User Collaborative Filtering](#user_user_based)
 	3. [Matrix Factorization](#svd)
 3. [Installations](#installations)
-4. [Authors](#authors)
-4. [Project Motivation](#motivation)
-5. [Acknowledgements](#acknowledgement)
+4. [Folder Structure](#folders)
+5. [Authors](#authors)
+6. [Project Motivation](#motivation)
+7. [Acknowledgements](#acknowledgement)
 
 
 <a name="introduction"></a>
@@ -74,7 +75,33 @@ Please run `pip install -r requirements.txt`
 <a name="motivation"></a>
 
 
-<a name="authors"></a> 
+<a name="folders"></a> 
+
+## Folder Structure
+
+'''
+C:.
+│   README.md
+│   requirements.txt
+│
+├───data
+│       articles_community.csv
+│       user-item-interactions.csv
+│       user_item_matrix.p
+│
+├───images
+│       IBM.png
+│
+└───notebooks
+        project_tests.py
+        Recommendations_with_IBM.ipynb
+        top_10.p
+        top_20.p
+        top_5.p
+'''
+
+
+<a name="authors"></a>
 
 ## Authors
 
