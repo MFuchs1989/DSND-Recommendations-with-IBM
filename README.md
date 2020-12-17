@@ -79,7 +79,7 @@ Please run `pip install -r requirements.txt`
 
 ## Folder Structure
 
-'''
+```
 C:.
 │   README.md
 │   requirements.txt
@@ -98,7 +98,7 @@ C:.
         top_10.p
         top_20.p
         top_5.p
-'''
+```
 
 
 <a name="authors"></a>
